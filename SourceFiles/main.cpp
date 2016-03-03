@@ -1,5 +1,5 @@
-// Programa para tentar criar um Menu b·sico contendo:
-// OpÁıes : mudanÁa no menu
+// Programa para tentar criar um Menu b√°sico contendo:
+// Op√ß√µes : mudan√ßa no menu
 // Fechar : Fechar o programa
 // Lista encadeada de objetos buga apos uma limpeza , o final fica apontando para algo indefinido
 #include "Allegro_esi.h"
@@ -101,7 +101,7 @@ int main()
     al_set_target_bitmap(al_get_backbuffer(display));
     al_clear_to_color(al_map_rgb(100,100,100));
 
-    // Flip display tr·s o background desenhado para a tela//
+    // Flip display tr√°s o background desenhado para a tela//
     al_flip_display();
     al_start_timer(timer);
 
